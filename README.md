@@ -16,7 +16,7 @@ It includes a custom pipeline for image preprocessing, model training, and a rea
 
 ## 🛠️ Project Structure
 
-* `hand_gesture_training.py`: Script to preprocess data and train the CNN model
+* `hand_gesture_recognition.py`: Script to preprocess data and train the CNN model
 * `combined_test.py`: Inference script for single-image selection or random batch testing
 * `hand_gesture_model.h5`: The trained weights
 * `gesture_labels.txt`: Mapping of class numbers to gesture names
@@ -29,6 +29,5 @@ It includes a custom pipeline for image preprocessing, model training, and a rea
 
 ## 💻 How to Run
 
-1. Clone the repo: `git clone https://github.com/your-username/hand-gesture-recognition.git`
-2. Install dependencies: `pip install tensorflow opencv-python matplotlib`
-3. Run the predictor: `python combined_test.py`
+1. Install dependencies: `pip install tensorflow opencv-python matplotlib`
+2. Run the predictor: `python combined_test.py`
